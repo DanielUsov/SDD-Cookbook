@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Файловый менеджер"
@@ -209,7 +211,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0dddc009369856b5",
+  "active": "058fa0a55ed4292e",
   "lastOpenFiles": [
     "OpenSpec/gates/Общие положения.md",
     "OpenSpec/roles/Общие положения.md",
