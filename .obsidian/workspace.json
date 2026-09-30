@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OpenSpec/roles/Аналитик/Автономная интерпретация изменений UI.md",
+                "file": "OpenSpec/roles/Аналитик/Сквозной путь фичи.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Автономная интерпретация изменений UI"
+              "title": "Сквозной путь фичи"
             }
           }
         ]
@@ -213,8 +213,10 @@
   },
   "active": "0dddc009369856b5",
   "lastOpenFiles": [
-    "OpenSpec/store/FAQ.md",
+    "OpenSpec/roles/Аналитик/Набор модулей.md",
+    "OpenSpec/roles/Аналитик/Сквозной путь фичи.md",
     "OpenSpec/roles/Аналитик/Автономная интерпретация изменений UI.md",
+    "OpenSpec/store/FAQ.md",
     "OpenSpec/roles/Аналитик",
     "OpenSpec/roles/Общие положения.md",
     "OpenSpec/gates/Общие положения.md",
