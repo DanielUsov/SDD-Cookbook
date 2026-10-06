@@ -1,0 +1,10 @@
+entities:
+  Request:
+    added:
+      indexes:
+        - fields: [status, createdAt]
+          reason: фильтрация по статусу и периоду создания
+        - fields: [assigneeId]
+          reason: фильтрация по исполнителю
+    modified: {}
+    removed: {}

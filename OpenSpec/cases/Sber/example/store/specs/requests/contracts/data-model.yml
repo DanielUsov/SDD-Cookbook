@@ -1,0 +1,13 @@
+entities:
+  Request:
+    description: Заявка
+    fields:
+      - {name: id, type: uuid, required: true}
+      - {name: title, type: string, required: true}
+      - {name: status, type: enum, values: [NEW, IN_PROGRESS, DONE, REJECTED], required: true}
+      - {name: authorId, type: uuid, required: true}
+      - {name: assigneeId, type: uuid, required: false}
+      - {name: createdAt, type: timestamp, required: true}
+    indexes:
+      - fields: [authorId]
+        reason: список заявок автора

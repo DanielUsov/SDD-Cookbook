@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "read:markdown",
+      "read:json",
+      "edit:markdown",
+      "git:*"
+    ]
+  },
+  "workspace": {
+    "root": "/home/daniel/Develop/SDD-Cookbook",
+    "ignore": [
+      ".obsidian",
+      "node_modules"
+    ]
+  }
+}
