@@ -33,7 +33,7 @@ changes/PROJ-1234-request-filters/
 **Правило:** нет области, нет файла. Если frontend не затрагивается, файла `FFRD.md` нет.
 
 ```mermaid
-flowchart LR
+flowchart TB
     BRD["BRD.md<br/>(БТ)"] -.->|ссылка| FRD
     FRD["FRD.md"] --> BFRD["BFRD.md"]
     FRD --> FFRD["FFRD.md"]

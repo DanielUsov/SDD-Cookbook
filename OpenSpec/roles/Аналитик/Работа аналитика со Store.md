@@ -18,7 +18,7 @@
 flowchart TB
     CTX["Контекст агента"] --> Q["Вопросы и уточнения<br/>по одному"]
     Q --> D["Черновик FRD.md"]
-    D --> P["BFRD.md, FFRD.md, contracts/"]
+    D --> P["BFRD.md, FFRD.md,<br/>contracts/"]
     P --> R["Проверка человеком, PR"]
     CTX -.- C1["master spec Store"]
     CTX -.- C2["архив прошлых фич"]

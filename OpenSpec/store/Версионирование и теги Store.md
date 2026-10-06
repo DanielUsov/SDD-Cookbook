@@ -11,7 +11,7 @@
 | Для чего | разработчик пинит submodule во время работы | разработчик пинит submodule после архивации |
 
 ```mermaid
-flowchart LR
+flowchart TB
     A["мерж фичи<br/>PROJ-1234/v1"] --> B["правка ФТ<br/>PROJ-1234/v2"]
     B --> C["freeze:<br/>архивация, тег 2.4.0"]
 ```

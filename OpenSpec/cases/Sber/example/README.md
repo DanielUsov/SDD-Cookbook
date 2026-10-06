@@ -13,10 +13,10 @@
 Пример показывает систему в конкретный момент, **до feature freeze**:
 
 ```mermaid
-flowchart LR
-    A["ФТ согласовано,<br/>тег HRPPRBCI-XXXX/v1"] --> B["backend: change 1 завершён,<br/>change 2 в работе"]
-    A --> C["frontend: change в работе"]
-    B --> D["freeze и тег релиза Store<br/>(в примере ещё не наступили)"]
+flowchart TB
+    A["ФТ согласовано,<br/>тег HRPPRBCI-XXXX/v1"] --> B["backend: change 1<br/>завершён,<br/>change 2 в работе"]
+    A --> C["frontend: change в<br/>работе"]
+    B --> D["freeze и тег релиза<br/>Store<br/>(в примере ещё не<br/>наступили)"]
     C --> D
 ```
 

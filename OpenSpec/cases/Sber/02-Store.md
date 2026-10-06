@@ -33,7 +33,7 @@ changes/HRPPRBCI-XXXX-суффикс/
 Правило: **нет области, нет файла.** Если фича не затрагивает frontend, файла `FFRD.md` нет. Если нет внешних интеграций, нет и `integrations.*`.
 
 ```mermaid
-flowchart LR
+flowchart TB
     BRD["BRD.md<br/>(БТ)"] -.->|ссылка| FRD
     FRD["FRD.md"] --> BFRD["BFRD.md"]
     FRD --> FFRD["FFRD.md"]
@@ -190,7 +190,7 @@ Jenkins по вебхуку Bitbucket при мерже в `master`:
 Версия релиза определяется по **максимальному** `Impact` среди включённых в него фич.
 
 ```mermaid
-flowchart LR
+flowchart TB
     A["мерж фичи<br/>HRPPRBCI-XXXX/v1"] --> B["правка ФТ<br/>HRPPRBCI-XXXX/v2"]
     B --> C["freeze:<br/>архивация, тег 2.4.0"]
 ```

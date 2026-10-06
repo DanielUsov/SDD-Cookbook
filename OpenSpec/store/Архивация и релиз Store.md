@@ -10,12 +10,12 @@
 
 ```mermaid
 flowchart TB
-    FZ["feature freeze релиза"] --> L["список фич релиза<br/>(все задачи BE и FE закрыты)"]
+    FZ["feature freeze релиза"] --> L["список фич релиза<br/>(все задачи BE и FE<br/>закрыты)"]
     L --> BR["ветка release/x.y.z"]
-    BR --> AR["store-archive для каждой фичи"]
+    BR --> AR["store-archive для каждой<br/>фичи"]
     AR --> PR["один PR, ревью"]
     PR --> MG["мерж в основную ветку"]
-    MG --> TG["аналитик ставит тег x.y.z"]
+    MG --> TG["аналитик ставит тег<br/>x.y.z"]
     L -.->|"не все части готовы"| OUT["остаётся в changes/"]
 ```
 

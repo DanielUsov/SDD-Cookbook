@@ -10,11 +10,11 @@ Gigacode (форк Qwen Code) используется и аналитиками
 flowchart TB
     CTX["Контекст агента"] --> Q["Вопросы и уточнения<br/>по одному"]
     Q --> D["Черновик FRD.md"]
-    D --> P["BFRD.md, FFRD.md, contracts/"]
+    D --> P["BFRD.md, FFRD.md,<br/>contracts/"]
     P --> R["Проверка человеком, PR"]
-    CTX -.- C1["master spec Store (specs/)"]
-    CTX -.- C2["архив прошлых фич (changes/archive/)"]
-    CTX -.- C3["БТ (business-requirements/)"]
+    CTX -.- C1["master spec Store<br/>(specs/)"]
+    CTX -.- C2["архив прошлых фич<br/>(changes/archive/)"]
+    CTX -.- C3["БТ<br/>(business-requirements/)"]
 ```
 
 ### Откуда агент берёт «текущее состояние» системы
@@ -68,7 +68,7 @@ flowchart TB
 В локальной схеме шаги `brainstorm` и `design` содержат короткое указание: «прочитай инструкцию своей части в `openspec/store/docs/` на пинованном теге и действуй по ней». Так при изменении структуры Store правится одно место, а не каждый репозиторий.
 
 ```mermaid
-flowchart LR
+flowchart TB
     SCH["схема репозитория:<br/>brainstorm, design"] -->|"ссылка"| DOC["openspec/store/docs/<br/>Матрица-чтения"]
     DOC --> F["файлы фичи Store<br/>на пинованном теге"]
 ```
