@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d7b84a00fd244ac7",
+        "id": "09126463772207cc",
         "type": "tabs",
         "children": [
           {
-            "id": "ad6f637914118a39",
+            "id": "ceb607b0777e984b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OpenSpec/cases/Motiv/Общие положения.md",
+                "file": "OpenSpec/cases/КП/02-Store.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Общие положения"
+              "title": "02-Store"
             }
           }
         ]
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 230.70131301879883
   },
   "right": {
     "id": "fba26a7e975a401d",
@@ -210,13 +210,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ad6f637914118a39",
+  "active": "ceb607b0777e984b",
   "lastOpenFiles": [
+    "OpenSpec/cases/КП/05-Проверки-и-сборка.md",
+    "OpenSpec/cases/КП/example/README.md",
+    "OpenSpec/cases/КП/README.md",
+    "OpenSpec/cases/КП/example/store/changes/HRPPRBCI-XXXX-request-filters/FFRD.md",
+    "OpenSpec/cases/КП/04-Жизненный-цикл-фичи.md",
+    "OpenSpec/cases/КП/03-Кодовые-репозитории.md",
+    "OpenSpec/cases/КП/01-Принципы-и-роли.md",
+    "OpenSpec/cases/Motiv/Общие положения.md",
     "OpenSpec/cases/Motiv/Общие положения.md.tmp.9870.b079385c1796",
     "OpenSpec/cases/Motiv/Общие положения.md.tmp.9870.5dd05cbb2b12",
-    "OpenSpec/cases/Motiv/Общие положения.md",
     "OpenSpec/cases/Motiv",
-    "OpenSpec/cases/Sber/FAQ.md",
+    "OpenSpec/cases/КП/FAQ.md",
     "OpenSpec/cases/Sber/FAQ.md.tmp.71582.b33f1f64dde3",
     "OpenSpec/cases/Sber/README.md.tmp.71582.2648da3da652",
     "OpenSpec/store/README.md.tmp.71582.c1ecfc2fbe95",
@@ -225,28 +232,21 @@
     "OpenSpec/store/README.md",
     "OpenSpec/store/README.md.tmp.71582.fb04e4daca6b",
     "OpenSpec/roles/Аналитик/Сквозной путь фичи.md.tmp.71582.6ca413b23a54",
-    "OpenSpec/store/Сквозной жизненный цикл фичи.md.tmp.71582.b48a4f81bd9a",
     "OpenSpec/roles/Разработчик/Работа разработчика с кодовым репозиторием.md",
     "OpenSpec/roles/Аналитик/Работа аналитика со Store.md",
     "OpenSpec/gates/Контроль соответствия.md",
     "OpenSpec/gates/Change без фичи в Store.md",
     "OpenSpec/gates/Разделение фичи на релизы.md",
-    "OpenSpec/cases/Sber/example/backend/openspec/changes/request-filters-api/tasks.md",
+    "OpenSpec/cases/КП/example/backend/openspec/changes/request-filters-api/tasks.md",
     "OpenSpec/gates/Исправление ошибки в ФТ.md",
     "OpenSpec/gates/Изменение ФТ в ходе разработки.md",
-    "OpenSpec/cases/Sber/01-Принципы-и-роли.md",
     "OpenSpec/store/Архивация и релиз Store.md",
     "OpenSpec/store/Подключение Store к кодовым репозиториям.md",
     "OpenSpec/store/Сквозной жизненный цикл фичи.md",
     "OpenSpec/store/Версионирование и теги Store.md",
     "OpenSpec/store/Структура Store и артефакты фичи.md",
     "OpenSpec/store/Принципы Store и чёрный ящик.md",
-    "OpenSpec/cases/Sber/example/README.md",
-    "OpenSpec/cases/Sber/example/frontend/openspec/changes/request-filters-ui/tasks.md",
-    "OpenSpec/cases/Sber/example/frontend/openspec/changes/request-filters-ui/design.md",
-    "OpenSpec/cases/Sber/example/frontend/openspec/changes/request-filters-ui/proposal.md",
-    "OpenSpec/cases/Sber/example/frontend/openspec/specs/requests/spec.md",
-    "OpenSpec/cases/Sber/example/frontend/openspec/store/SUBMODULE.md",
-    "OpenSpec/cases/Sber/example/backend/openspec/changes/fix-pagination-offset/proposal.md"
+    "OpenSpec/cases/КП/example/frontend/openspec/changes/request-filters-ui/tasks.md",
+    "OpenSpec/cases/КП/example/frontend/openspec/changes/request-filters-ui/design.md"
   ]
 }

@@ -18,7 +18,7 @@ Frontend-часть фичи Store HRPPRBCI-XXXX.
 
 ## Что делаем
 
-Реализуем панель фильтров над таблицей по описанию из Store: [FFRD.md](../../../../store/changes/HRPPRBCI-XXXX-request-filters/FFRD.md) (в репозитории читается из `openspec/store/` на теге).
+Реализуем панель фильтров над таблицей по описанию из Store: [FFRD.md](OpenSpec/cases/КП/example/store/changes/HRPPRBCI-XXXX-request-filters/FFRD.md) (в репозитории читается из `openspec/store/` на теге).
 
 ## Границы
 

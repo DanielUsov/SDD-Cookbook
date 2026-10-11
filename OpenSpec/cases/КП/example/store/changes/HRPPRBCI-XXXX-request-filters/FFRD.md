@@ -1,6 +1,6 @@
 # FFRD: фильтры в списке заявок (frontend)
 
-Единое описание фичи: [FRD.md](FRD.md).
+Единое описание фичи: [FRD.md](OpenSpec/cases/КП/example/store/changes/HRPPRBCI-XXXX-request-filters/FRD.md).
 
 ## Что меняется на экране «Список заявок»
 
@@ -51,4 +51,4 @@ stateDiagram-v2
 
 ## Контракты
 
-Запрос и ответ описаны в [contracts/api.yaml](contracts/api.yaml).
+Запрос и ответ описаны в [OpenSpec/cases/КП/example/store/changes/HRPPRBCI-XXXX-request-filters/contracts/api.yaml](OpenSpec/cases/КП/example/store/changes/HRPPRBCI-XXXX-request-filters/contracts/api.yaml).

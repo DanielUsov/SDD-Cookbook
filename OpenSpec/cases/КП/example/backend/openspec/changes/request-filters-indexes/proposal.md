@@ -6,7 +6,7 @@ store-version: HRPPRBCI-XXXX/v1
 
 # request-filters-indexes: индексы для фильтрации заявок
 
-Второй change фичи HRPPRBCI-XXXX. Работает в той же ветке `feature/HRPPRBCI-XXXX`, что и [request-filters-api](../request-filters-api/proposal.md): `jira-id` у обоих одинаковый.
+Второй change фичи HRPPRBCI-XXXX. Работает в той же ветке `feature/HRPPRBCI-XXXX`, что и [request-filters-api](OpenSpec/cases/КП/example/backend/openspec/changes/request-filters-api/proposal.md): `jira-id` у обоих одинаковый.
 
 ## Что делаем
 

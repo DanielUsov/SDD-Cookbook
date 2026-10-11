@@ -1,6 +1,6 @@
 # Пример: фильтры в списке заявок
 
-Сквозной пример к кейсу: на одной небольшой фиче показано, как выглядят **Store**, **кодовый репозиторий backend** и **кодовый репозиторий frontend**, и как они связаны. Основное описание механизма: [README кейса](../README.md).
+Сквозной пример к кейсу: на одной небольшой фиче показано, как выглядят **Store**, **кодовый репозиторий backend** и **кодовый репозиторий frontend**, и как они связаны. Основное описание механизма: [README кейса](OpenSpec/cases/КП/README.md).
 
 ## Что это
 
@@ -72,34 +72,34 @@ example/
 
 Рекомендуемый порядок:
 
-1. [БТ](store/business-requirements/BRD-request-filters.md): откуда берётся фича.
-2. [FRD.md](store/changes/HRPPRBCI-XXXX-request-filters/FRD.md): таблица, идея и ссылки на остальные файлы.
-3. [BFRD.md](store/changes/HRPPRBCI-XXXX-request-filters/BFRD.md) и [FFRD.md](store/changes/HRPPRBCI-XXXX-request-filters/FFRD.md): требования по частям.
-4. Контракты: [api.yaml](store/changes/HRPPRBCI-XXXX-request-filters/contracts/api.yaml) (фрагмент), [data-model.yml](store/changes/HRPPRBCI-XXXX-request-filters/contracts/data-model.yml) (дельта).
-5. Сравните с модулем «до фичи»: [specs/requests](store/specs/requests/FRD.md).
-6. Перейдите в кодовый репозиторий: [backend proposal](backend/openspec/changes/request-filters-api/proposal.md), [frontend proposal](frontend/openspec/changes/request-filters-ui/proposal.md).
+1. [БТ](BRD-request-filters.md): откуда берётся фича.
+2. [FRD.md](OpenSpec/cases/КП/example/store/changes/HRPPRBCI-XXXX-request-filters/FRD.md): таблица, идея и ссылки на остальные файлы.
+3. [BFRD.md](OpenSpec/cases/КП/example/store/changes/HRPPRBCI-XXXX-request-filters/BFRD.md) и [FFRD.md](OpenSpec/cases/КП/example/store/changes/HRPPRBCI-XXXX-request-filters/FFRD.md): требования по частям.
+4. Контракты: [api.yaml](OpenSpec/cases/КП/example/store/changes/HRPPRBCI-XXXX-request-filters/contracts/api.yaml) (фрагмент), [data-model.yml](OpenSpec/cases/КП/example/store/changes/HRPPRBCI-XXXX-request-filters/contracts/data-model.yml) (дельта).
+5. Сравните с модулем «до фичи»: [specs/requests](OpenSpec/cases/КП/example/store/specs/requests/FRD.md).
+6. Перейдите в кодовый репозиторий: [backend proposal](OpenSpec/cases/КП/example/backend/openspec/changes/request-filters-api/proposal.md), [frontend proposal](OpenSpec/cases/КП/example/frontend/openspec/changes/request-filters-ui/proposal.md).
 
 ## Где посмотреть каждое правило
 
 | Правило | Где в примере |
 |---|---|
 | файлы по областям, нет области — нет файла | `store/changes/…`: есть `BFRD.md` и `FFRD.md`, нет `integrations.*` |
-| таблица в начале FRD вместо отдельного паспорта | [FRD.md](store/changes/HRPPRBCI-XXXX-request-filters/FRD.md) |
-| ссылка на БТ | таблица в `FRD.md` и [БТ](store/business-requirements/BRD-request-filters.md) |
-| фрагмент OpenAPI вместо полного контракта | [contracts/api.yaml](store/changes/HRPPRBCI-XXXX-request-filters/contracts/api.yaml) и полный контракт в [specs](store/specs/requests/contracts/api.yaml) |
-| дельта модели данных без привязки к СУБД | [contracts/data-model.yml](store/changes/HRPPRBCI-XXXX-request-filters/contracts/data-model.yml) |
-| матрица чтения лежит в Store | [backend](store/docs/Матрица-чтения-backend.md), [frontend](store/docs/Матрица-чтения-frontend.md) |
+| таблица в начале FRD вместо отдельного паспорта | [FRD.md](OpenSpec/cases/КП/example/store/changes/HRPPRBCI-XXXX-request-filters/FRD.md) |
+| ссылка на БТ | таблица в `FRD.md` и [БТ](BRD-request-filters.md) |
+| фрагмент OpenAPI вместо полного контракта | [contracts/api.yaml](OpenSpec/cases/КП/example/store/changes/HRPPRBCI-XXXX-request-filters/contracts/api.yaml) и полный контракт в [specs](OpenSpec/cases/КП/example/store/specs/requests/contracts/api.yaml) |
+| дельта модели данных без привязки к СУБД | [contracts/data-model.yml](OpenSpec/cases/КП/example/store/changes/HRPPRBCI-XXXX-request-filters/contracts/data-model.yml) |
+| матрица чтения лежит в Store | [backend](Матрица-чтения-backend.md), [frontend](Матрица-чтения-frontend.md) |
 | метаданные change: `jira-id`, `store-feature`, `store-version` | начало любого `proposal.md` в `backend/` и `frontend/` |
 | декомпозиция одной фичи на несколько changes в одной ветке | два changes backend с одинаковым `jira-id` |
 | декомпозиция на уровне Jira: другой `jira-id` | frontend `request-filters-ui` (`HRPPRBCI-YYYY`) |
-| change без фичи в Store (баг реализации) | [fix-pagination-offset](backend/openspec/changes/fix-pagination-offset/proposal.md) |
-| отчёт о проверках | [verify.md](backend/openspec/changes/request-filters-api/verify.md) |
+| change без фичи в Store (баг реализации) | [fix-pagination-offset](OpenSpec/cases/КП/example/backend/openspec/changes/fix-pagination-offset/proposal.md) |
+| отчёт о проверках | [verify.md](verify.md) |
 | локальный master spec | `specs/requests/spec.md` в backend и frontend |
-| дельта локального master spec | [specs в change](backend/openspec/changes/request-filters-api/specs/requests/spec.md) |
+| дельта локального master spec | [specs в change](OpenSpec/cases/КП/example/backend/openspec/changes/request-filters-api/specs/requests/spec.md) |
 
 ## Чтение в Obsidian
 
-Все файлы примера видимы (скрытых папок и файлов нет). Файлы `.yaml` и `.yml` Obsidian по умолчанию не показывает: чтобы они появились в списке файлов, включите в настройках **Files and links → Detect all file extensions**. Без этой настройки формат контрактов можно посмотреть в выдержках в [02-Store](../02-Store.md), а смысл параметров и правил описан в `BFRD.md` и `FFRD.md` фичи.
+Все файлы примера видимы (скрытых папок и файлов нет). Файлы `.yaml` и `.yml` Obsidian по умолчанию не показывает: чтобы они появились в списке файлов, включите в настройках **Files and links → Detect all file extensions**. Без этой настройки формат контрактов можно посмотреть в выдержках в [02-Store](02-Store.md), а смысл параметров и правил описан в `BFRD.md` и `FFRD.md` фичи.
 
 ## Упрощения примера
 

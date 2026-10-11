@@ -1,10 +1,10 @@
 # BFRD: фильтры в списке заявок (backend)
 
-Единое описание фичи: [FRD.md](FRD.md).
+Единое описание фичи: [FRD.md](OpenSpec/cases/КП/example/store/changes/HRPPRBCI-XXXX-request-filters/FRD.md).
 
 ## Что меняется
 
-Операция `GET /requests` принимает дополнительные необязательные параметры отбора. Полное описание: [contracts/api.yaml](contracts/api.yaml).
+Операция `GET /requests` принимает дополнительные необязательные параметры отбора. Полное описание: [OpenSpec/cases/КП/example/store/changes/HRPPRBCI-XXXX-request-filters/contracts/api.yaml](OpenSpec/cases/КП/example/store/changes/HRPPRBCI-XXXX-request-filters/contracts/api.yaml).
 
 | Параметр | Тип | Правило |
 |---|---|---|
@@ -31,4 +31,4 @@
 
 ## Данные
 
-Для требования по времени ответа (см. FRD) добавляются индексы по полям фильтрации. Описание: [contracts/data-model.yml](contracts/data-model.yml). Выбор способа реализации и миграции остаётся за разработчиком.
+Для требования по времени ответа (см. FRD) добавляются индексы по полям фильтрации. Описание: [OpenSpec/cases/КП/example/store/changes/HRPPRBCI-XXXX-request-filters/contracts/data-model.yml](OpenSpec/cases/КП/example/store/changes/HRPPRBCI-XXXX-request-filters/contracts/data-model.yml). Выбор способа реализации и миграции остаётся за разработчиком.

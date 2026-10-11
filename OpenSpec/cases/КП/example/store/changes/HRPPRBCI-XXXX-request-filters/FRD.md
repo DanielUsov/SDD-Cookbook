@@ -5,7 +5,7 @@
 | Jira | HRPPRBCI-XXXX |
 | Название | Фильтры в списке заявок |
 | Тип | feature |
-| БТ | [BRD-request-filters.md](../../business-requirements/BRD-request-filters.md) |
+| БТ | [BRD-request-filters.md](BRD-request-filters.md) |
 | Модули | requests |
 | Части | backend, frontend |
 | Impact | minor |
@@ -47,7 +47,7 @@
 
 ## Описание по частям
 
-- Backend: [BFRD.md](BFRD.md)
-- Frontend: [FFRD.md](FFRD.md)
-- Контракты: [contracts/api.yaml](contracts/api.yaml), [contracts/data-model.yml](contracts/data-model.yml)
+- Backend: [BFRD.md](OpenSpec/cases/КП/example/store/changes/HRPPRBCI-XXXX-request-filters/BFRD.md)
+- Frontend: [FFRD.md](OpenSpec/cases/КП/example/store/changes/HRPPRBCI-XXXX-request-filters/FFRD.md)
+- Контракты: [OpenSpec/cases/КП/example/store/changes/HRPPRBCI-XXXX-request-filters/contracts/api.yaml](OpenSpec/cases/КП/example/store/changes/HRPPRBCI-XXXX-request-filters/contracts/api.yaml), [OpenSpec/cases/КП/example/store/changes/HRPPRBCI-XXXX-request-filters/contracts/data-model.yml](OpenSpec/cases/КП/example/store/changes/HRPPRBCI-XXXX-request-filters/contracts/data-model.yml)
 - Внешних интеграций у фичи нет, поэтому файла `integrations.*` нет.

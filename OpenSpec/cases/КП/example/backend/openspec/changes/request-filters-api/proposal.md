@@ -6,11 +6,11 @@ store-version: HRPPRBCI-XXXX/v1
 
 # request-filters-api: параметры отбора в списке заявок
 
-Первый из двух changes, на которые разработчик декомпозировал фичу Store HRPPRBCI-XXXX. Второй: [request-filters-indexes](../request-filters-indexes/proposal.md).
+Первый из двух changes, на которые разработчик декомпозировал фичу Store HRPPRBCI-XXXX. Второй: [request-filters-indexes](OpenSpec/cases/КП/example/backend/openspec/changes/request-filters-indexes/proposal.md).
 
 ## Что делаем
 
-Реализуем в backend параметры отбора `status`, `createdFrom`, `createdTo`, `assigneeId` для `GET /requests` по описанию из Store: [BFRD.md](../../../../store/changes/HRPPRBCI-XXXX-request-filters/BFRD.md) (в репозитории файл читается из `openspec/store/` на теге `HRPPRBCI-XXXX/v1`).
+Реализуем в backend параметры отбора `status`, `createdFrom`, `createdTo`, `assigneeId` для `GET /requests` по описанию из Store: [BFRD.md](OpenSpec/cases/КП/example/store/changes/HRPPRBCI-XXXX-request-filters/BFRD.md) (в репозитории файл читается из `openspec/store/` на теге `HRPPRBCI-XXXX/v1`).
 
 ## Границы
 

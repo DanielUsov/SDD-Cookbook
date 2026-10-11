@@ -14,6 +14,6 @@
 
 ## Описание по частям
 
-- Backend: [BFRD.md](BFRD.md)
-- Frontend: [FFRD.md](FFRD.md)
-- Контракты: [contracts/api.yaml](contracts/api.yaml), [contracts/data-model.yml](contracts/data-model.yml)
+- Backend: [BFRD.md](OpenSpec/cases/КП/example/store/specs/requests/BFRD.md)
+- Frontend: [FFRD.md](OpenSpec/cases/КП/example/store/specs/requests/FFRD.md)
+- Контракты: [OpenSpec/cases/КП/example/store/specs/requests/contracts/api.yaml](OpenSpec/cases/КП/example/store/specs/requests/contracts/api.yaml), [OpenSpec/cases/КП/example/store/specs/requests/contracts/data-model.yml](OpenSpec/cases/КП/example/store/specs/requests/contracts/data-model.yml)
